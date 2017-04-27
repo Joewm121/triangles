@@ -1,0 +1,7 @@
+p {
+  color: red;
+}
+
+#equilateral, #isosceles, #scalene, #not {
+  display: none;
+}
