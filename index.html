@@ -10,41 +10,42 @@
     <title>Triangles</title>
   </head>
   <body>
-    <form id="triangle">
-      <div class="form-group">
-        <label for="number1">1st number:</label>
-        <input id="number1" class="form-control" type="text">
+    <div class="container">
+      <form id="triangle">
+        <div class="form-group">
+          <label for="number1">1st number:</label>
+          <input id="number1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="number2">2nd number:</label>
+          <input id="number2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="number3">3rd number:</label>
+          <input id="number3" class="form-control" type="text">
+        </div>
+      <button type="submit" class="btn">Is this a dang triangle or what?!</button>
+      </form>
+      <div id="equilateral">
+        <p>
+          This triangle has equal sides, its equilateral!
+        </p>
       </div>
-      <div class="form-group">
-        <label for="number2">2nd number:</label>
-        <input id="number2" class="form-control" type="text">
+      <div id="isosceles">
+        <p>
+          This triangle has 2 equal sides, its isosceles!
+        </p>
       </div>
-      <div class="form-group">
-        <label for="number3">3rd number:</label>
-        <input id="number3" class="form-control" type="text">
+      <div id="scalene">
+        <p>
+          This triangle has no equal sides, its scalene!
+        </p>
       </div>
-    </div>
-    <button type="submit" class="btn">Is this a dang triangle or what?!</button>
-    </form>
-    <div id="equilateral">
-      <p>
-        This triangle has equal sides, its equilateral!
-      </p>
-    </div>
-    <div id="isosceles">
-      <p>
-        This triangle has 2 equal sides, its isosceles!
-      </p>
-    </div>
-    <div id="scalene">
-      <p>
-        This triangle has no equal sides, its scalene!
-      </p>
-    </div>
-    <div id="not">
-      <p>
-        This is not a triangle, whats wrong with you!
-      </p>
+      <div id="not">
+        <p>
+          This is not a triangle, whats wrong with you!
+        </p>
+      </div>
     </div>
   </body>
 </html>
